@@ -1,0 +1,75 @@
+.wrapp-glavni{
+    @extend %wrapp-glavni;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    h2{
+        color: $text-color;
+        text-align: center;
+        padding-top: 12px;
+        font-size: 44px;
+        color:black;
+        text-shadow:1px 2px 5px #bd1aa4;
+       
+    }
+}
+%wrapp-prelaz{
+    @extend %wrapp-glavni;
+    h2{
+        color: $text-color;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+}
+.blok-fix{
+    width: 100%;
+    height: 940px;
+    background-color: #404D60;
+    background-image: url(../slike/cover1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    img{
+        max-width: 620px;
+        max-height: 745px;
+        border-radius: $border-r;
+        box-shadow:  rgba(182, 10, 168, 0.71) 0px 20px 30px -10px;
+    }
+    .wrapp-text{
+        width: 365px;
+        text-align: left;
+        h6{
+            color:#bd1aa4;
+            font-size: 33px;
+        }
+        p{
+            color:white;
+            font-size: 30px;
+        }
+        .blok-za-text{
+            height: 360px;
+            width: 100%;
+            border-radius: 25px;  
+            margin: 10px 0px;
+            overflow: hidden;
+            p{
+                text-align: center;
+                color: $text-color;
+                font-family: $font;
+                font-size: 34px;
+                padding: 10px;
+                text-shadow: 2px 2px 5px black;
+            }
+        }
+    }
+}
+%blok-fix-osnova{
+    width: 100%;
+    height: 940px;
+    background-color: #404D60;
+}

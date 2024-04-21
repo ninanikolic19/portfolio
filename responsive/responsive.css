@@ -1,0 +1,311 @@
+@media screen and (max-width: 1410px) {
+    .blok-fix img {
+        max-width: 512px;
+        max-height: 639px;
+    }
+    .blok-fix .wrapp-text .blok-za-text {
+        width: 100%;
+        margin: 10px auto;
+        height: 300px;
+        p {
+            font-size: 27px;
+            margin-top: 17px;
+        }
+    }
+    p {
+        font-size: 27px;
+    }
+    .kontakt .wrapp-kontakt {
+        width: 45%;
+        height: 74%;
+    }
+    .kontakt #lokacija {
+        width: 46%;
+        height: 82%;
+    }
+    .kontakt #lokacija h2 {
+        font-size: 2vw;
+    }
+    header .wrapp-glavni ul {
+        width: 670px;
+    }
+    .wrapp-projekti h2 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 1150px) {
+   
+    .blok-fix .wrapp-text p{
+        font-size: 22px;
+    }
+    .usluge .usluga{
+        width:100%;
+        height:250px;
+    }
+    #mediaq{
+        height: 1000px;
+    }
+    .kontakt {
+        flex-direction: column;
+        height: 1500px;
+    }
+    .kontakt .wrapp-kontakt {
+        width: 700px;
+        height: 77%;
+        margin-top: 20px;
+    }
+    .kontakt .wrapp-kontakt form button {
+        font-size: 20px;
+    }
+    .kontakt #lokacija h2 {
+        font-size: 30px;
+        margin: 5px 0px;
+    }
+    .kontakt #lokacija {
+        width: 700px;
+        height: 82%;
+    }
+    .vestine h2 {
+        font-size: 30px;
+        width: 95%;
+    }
+    .kontakt .wrapp-kontakt form label {
+        font-size: 26px;
+    }
+    .container-projekti .blok-projekta{
+        margin:0px auto;
+    }
+    
+}
+@media screen and (max-width: 1041px) {
+    header h4{
+        font-size:33px ;
+    }
+    header .wrapp-glavni .logo {
+        width: 100px;
+        background-position: 10px 0px;
+    }
+    .wrapp-projekti .container-projekti .blok-projekta{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: column;  
+    }
+    .wrapp-projekti .container-projekti .blok-projekta .kocka, .wrapp-projekti .container-projekti .blok-projekta .krug{
+        width:100%;
+    }
+}
+.container-projekti .blok-projekta .projekt{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap-reverse;
+     flex-direction: column;
+}
+@media screen and (max-width: 930px) {
+    
+    .wrapp-projekti .container-projekti .blok-projekta p {
+        font-size: 30px;
+    }
+    header h1{
+        font-size: 50px;
+        
+    }
+    header h4{
+        
+        width:65%;
+        display: block;
+        float:right;
+    }
+    header .logo2 {
+        margin-top: 90px;
+    }
+    footer .contact{
+        width:100%;
+    }
+    footer .contact .contact-text .info-block{
+        justify-content: center;
+    }
+    .blok-fix{
+        flex-direction: column;
+    }
+    .blok-fix .wrapp-text{
+        text-align: center;
+        margin: 50px 0px;
+    }
+    #mediaq{
+        height:1200px;
+    }
+    
+}
+@media screen and (max-width: 730px) {
+    header h1{
+        font-size: 40px;
+    }
+    header h4{
+        font-size: 30px;
+        width:80%;
+    }
+    .kontakt .wrapp-kontakt {
+        width: 480px;
+    }
+    .kontakt #lokacija iframe {
+        width: 100%;
+    }
+    .kontakt #lokacija {
+        width: 480px;
+    }
+    .kontakt #lokacija h2 {
+        font-size: 23px;
+    }
+    .blok-fix .wrapp-text {
+        width: 455px;
+    }
+    .blok-fix .wrapp-text .blok-za-text p {
+        font-size: 23px;
+    }
+    header .wrapp-glavni ul {
+        width: 86%;
+    }
+    header .wrapp-glavni ul li {
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width: 570px){
+    footer .contact {
+        width:100%;
+    }
+    .wrapp-projekti .container-projekti .blok-projekta h2 {
+        font-size: 32px;
+    }
+    .wrapp-projekti .container-projekti .blok-projekta p {
+        font-size: 28px;
+    }
+    .wrapp-projekti .container-projekti .blok-projekta{
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width: 540px){
+    .usluge .usluga .t{
+        font-size: 15px;
+    }
+    header {
+        background-position: 0px;
+        height:650px;
+    }
+    header .wrapp-glavni {
+        height: 70px;
+    }
+    header .wrapp-glavni .logo {
+        width: 50px;
+        background-position: 0px 10px;
+    }
+    header .wrapp-glavni a {
+        width: 50px;
+    }
+    header .wrapp-glavni ul li {
+        font-size: 3.8vw;
+    }
+    header h2 {
+        font-size: 22px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    header h4{
+        font-size: 25px;
+        width:100%;
+    }
+    header .logo2 {
+        margin-top: 265px;
+    }
+    header .logo2 {
+        width: 260px;
+        height: 200px;
+    }
+    .blok-fix img {
+        max-width: 340px;
+    }
+    .blok-fix .wrapp-text {
+        width: 340px;
+    }
+    .blok-fix .wrapp-text .blok-za-text p {
+        font-size: 20px;
+        margin-top: 7px;
+    }
+    .vestine h2 {
+        font-size: 23px;
+    }
+    footer .contact .contact-text{
+        font-size: 10px;
+    }
+    
+    
+   
+    .wrapp-projekti .container-projekti .blok-projekta h2 {
+        font-size: 28px;
+        margin:0px;
+        padding:0px;
+    }
+    
+    
+    .wrapp-projekti .container-projekti .blok-projekta p {
+        font-size: 25px;
+    }
+    .kontakt .wrapp-kontakt {
+        width: 340px;
+    }
+    .kontakt #lokacija {
+        width: 340px;
+        height: 600px;
+    }
+    .kontakt #lokacija h2 {
+        font-size: 17px;
+    }
+    .kontakt {
+        height: 1345px;
+    }
+    .vestine .container-vestine .skills h3 {
+        font-size: 24px;
+    }
+    .vestine {
+        height: 710px;
+    }
+    .kontakt .wrapp-kontakt {
+        height: 715px;
+    }
+    #mediaq {
+        height: 1125px;
+    }
+    .wrapp-projekti .naslov{
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 375px){
+    header{
+        height:600px;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+    header h2 {
+        font-size: 18px;
+        padding-left: 24%;
+    }
+    header h4{
+        font-size: 20px;
+    }
+    img{
+        width:300px;
+    }
+   footer a{
+    font-size: 20px;
+   }
+    footer p{
+        font-size: 17px;
+    }
+    .kontakt #lokacija{
+        width:90%;
+    }
+}

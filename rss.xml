@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+	  <title>Lični Portfolio Informacije</title>
+	  <link>https://milos860.github.io/Portfolio-sajt/</link>
+	  <description>Ovde pišu informacije o ličnom portfoliu</description>
+		  <item>
+			<title>Portfolio</title>
+			<link>https://milos860.github.io/Portfolio-sajt/</link>
+			<description>Ovde piše nešto više o radovima</description>
+		  </item>
+	</channel>
+</rss>

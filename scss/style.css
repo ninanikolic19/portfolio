@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.wrapp-glavni {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  background: url("../slike/pozadinaa2.jpg") top/cover fixed;
+  background-repeat: no-repeat;
+  height: 865px;
+  background-position: 0px 82px;
+}
+header .headercic {
+  position: relative;
+  top: 40%;
+}
+header .wrapp-glavni {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 100;
+}
+header .wrapp-glavni a {
+  width: 100px;
+  height: 100%;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-style: bold;
+}
+header .wrapp-glavni .logo {
+  width: 200px;
+  height: 100%;
+  background-image: url(../slike/logonn.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 110px 0px;
+}
+header .wrapp-glavni ul {
+  display: flex;
+  list-style-type: none;
+  width: 45%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .wrapp-glavni ul li {
+  font-size: 25px;
+  font-family: "Cormorant Garamond", serif;
+}
+header .wrapp-glavni ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header .wrapp-glavni ul a:hover {
+  color: #bd1aa4;
+  text-shadow: 0px 0px 20px #bd1aa4;
+  transition: 0.8s;
+}
+header h1 {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 64px;
+  text-shadow: 0px 0px 15px #16191F;
+  margin-left: 30px;
+  z-index: 0;
+  position: relative;
+}
+header h4 {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 38px;
+  position: relative;
+  z-index: 0;
+  text-align: right;
+  margin-right: 30px;
+  text-shadow: 0px 0px 15px #16191F;
+  animation-name: text;
+  animation-duration: 3s;
+}
+@keyframes text {
+  0% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+header span {
+  color: #bd1aa4;
+  text-shadow: 13px 10px 5px white;
+}
+header .logo2 {
+  width: 400px;
+  height: 370px;
+  float: right;
+  background-image: url(slike/logo.png);
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.wrapp-glavni {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.wrapp-glavni h2 {
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+  font-size: 44px;
+  color: black;
+  text-shadow: 1px 2px 5px #bd1aa4;
+}
+
+.blok-fix {
+  width: 100%;
+  height: 940px;
+  background-color: #404D60;
+  background-image: url(../slike/cover1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.blok-fix img {
+  max-width: 620px;
+  max-height: 745px;
+  border-radius: 5px;
+  box-shadow: rgba(182, 10, 168, 0.71) 0px 20px 30px -10px;
+}
+.blok-fix .wrapp-text {
+  width: 365px;
+  text-align: left;
+}
+.blok-fix .wrapp-text h6 {
+  color: #bd1aa4;
+  font-size: 33px;
+}
+.blok-fix .wrapp-text p {
+  color: white;
+  font-size: 30px;
+}
+.blok-fix .wrapp-text .blok-za-text {
+  height: 360px;
+  width: 100%;
+  border-radius: 25px;
+  margin: 10px 0px;
+  overflow: hidden;
+}
+.blok-fix .wrapp-text .blok-za-text p {
+  text-align: center;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 34px;
+  padding: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.wrapp-projekti {
+  width: 100%;
+  height: 940px;
+  background-color: #404D60;
+}
+
+.wrapp-projekti {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+}
+.wrapp-projekti .naslov {
+  padding-top: 20px;
+}
+.wrapp-projekti h2 {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-size: 1.5vw;
+  text-shadow: 0px 0px 15px white;
+}
+.wrapp-projekti .container-projekti .blok-projekta {
+  width: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.wrapp-projekti .container-projekti .blok-projekta .krug {
+  height: 150px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapp-projekti .container-projekti .blok-projekta .krug .krugic {
+  width: 100%;
+}
+.wrapp-projekti .container-projekti .blok-projekta .krug .naziv {
+  text-shadow: none;
+  font-size: 27px;
+}
+.wrapp-projekti .container-projekti .blok-projekta .kocka {
+  height: 400px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapp-projekti .container-projekti .blok-projekta .kocka img {
+  width: 100%;
+}
+.wrapp-projekti .container-projekti .blok-projekta h2 {
+  float: right;
+  color: aliceblue;
+  font-size: 2.5vw;
+}
+.wrapp-projekti .container-projekti .blok-projekta img {
+  border-radius: 10px;
+  box-shadow: 5px 0px 15px #bd1aa4;
+}
+.wrapp-projekti .container-projekti .blok-projekta p {
+  text-align: center;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  padding: 10px 10px 0px 10px;
+  font-size: 25px;
+}
+.wrapp-projekti .container-projekti hr {
+  width: 60%;
+  height: 3px;
+  background-color: #bd1aa4;
+}
+
+.kontakt {
+  background-image: url("../slike/kontaktslika.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 910px;
+}
+.kontakt .wrapp-kontakt {
+  width: 40%;
+  height: 80%;
+  border-radius: 5px;
+}
+.kontakt .wrapp-kontakt form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+}
+.kontakt .wrapp-kontakt form input {
+  width: 85%;
+  margin: 10px auto;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 2px 0px black;
+  border: 1px solid #bd1aa4;
+}
+.kontakt .wrapp-kontakt form label {
+  padding-left: 9%;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.3vw;
+  color: white;
+}
+.kontakt .wrapp-kontakt form textarea {
+  width: 85%;
+  margin: 5px auto;
+  resize: none;
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  box-shadow: inset 0px 0px 4px 0px black;
+  border: 1px solid #bd1aa4;
+}
+.kontakt .wrapp-kontakt form button {
+  width: 25%;
+  margin: 2px auto;
+  padding: 11px 15px;
+  background-color: white;
+  border: 1px solid #bd1aa4;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1vw;
+  box-shadow: inset 0px 0px 4px 0px #bd1aa4;
+  color: black;
+}
+.kontakt .wrapp-kontakt form button:hover {
+  background-color: #bd1aa4;
+  box-shadow: inset 0px 0px 4px 0px white;
+  transition: 0, 8s;
+}
+.kontakt #lokacija {
+  width: 40%;
+  height: 80%;
+  margin: 50px;
+}
+.kontakt #lokacija h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.kontakt #lokacija iframe {
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px black;
+  width: 100%;
+  height: 80%;
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer .contact {
+  width: 400px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+footer .contact .contact-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .contact .contact-text .info-block {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  transition: all 0.5s;
+}
+footer .contact .contact-text .info-block:hover {
+  color: #bd1aa4;
+}
+footer .contact .contact-text .info-block i {
+  color: white;
+  font-size: 22px;
+  margin-right: 10px;
+}
+footer .logo {
+  background-image: url(../slike/logo-bezp.png);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+footer #linkovi a i {
+  font-size: 25px;
+}
+footer p {
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  display: block;
+}
+footer a {
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  margin-right: 15px;
+  font-size: 20px;
+  transition: all 0.5s;
+  color: white;
+}
+footer a:hover {
+  color: #bd1aa4;
+}
+footer a i {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  transition: all 0.5s;
+  display: block;
+}
+footer a i:hover {
+  color: #bd1aa4;
+}
+footer .footer-icons-size i {
+  font-size: 40px;
+}
+
+.usluge {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.usluge .usluga {
+  width: 500px;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 350px;
+}
+.usluge .u {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0px 0px 15px white;
+  margin-bottom: 20px;
+}
+.usluge .t {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+}
+.usluge .t p {
+  width: 100%;
+  height: 100%;
+}
+
+.review {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.review .client {
+  width: 300px;
+  height: 200px;
+  text-align: center;
+  color: white;
+  border: solid 2px #bd1aa4;
+  border-radius: 10px 40px;
+  margin: 10px 10px;
+}
+.review .client i {
+  font-size: 25px;
+  margin: 20px 0px;
+}
+.review .client h2 {
+  font-size: 22px;
+  font-family: "Cormorant Garamond", serif;
+}
+.review .client .boja {
+  color: #bd1aa4;
+  font-style: italic;
+  text-shadow: 0px 0px 25px white;
+}
+
+#companies {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 20px;
+}
+#companies .work {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+#companies .work .kompanije {
+  width: 400px;
+  margin: 20px 20px;
+  border-radius: 20px;
+  filter: brightness(0.9);
+  z-index: -1;
+  position: relative;
+}
+#companies .work .kompanije img {
+  width: 100%;
+  border-radius: 20px;
+}
+#companies .section-title {
+  font-style: italic;
+}/*# sourceMappingURL=style.css.map */

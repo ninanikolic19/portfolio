@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+  }
+header{
+    width: 100%;
+    background: url("../slike/pozadinaa2.jpg") top/cover fixed;
+    background-repeat: no-repeat;
+    height: 865px;
+    background-position: 0px 82px;
+    .headercic{
+        position: relative;
+        top:40%;
+    }
+    .wrapp-glavni{
+        width: 100%;
+        height: 90px;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        z-index:100;
+        a{
+            width: 100px;
+            height: 100%;
+            font-family: "Cormorant Garamond", serif;
+            font-weight: 400;
+            font-style: bold;
+        }
+        .logo{
+            width: 200px;
+            height: 100%;
+            background-image: url(../slike/logonn.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 110px 0px;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            width: 45%;
+            align-items: center;
+            justify-content: space-evenly;
+            li{
+                font-size: 25px;
+                font-family: $font;
+                a{
+                    text-decoration: none;
+                                        color: #fff;
+                }
+            }
+            a:hover{
+                color: #bd1aa4;
+                text-shadow: 0px 0px 20px #bd1aa4;
+                transition: 0.8s;
+            }
+        }
+    }
+    h1{
+        color: white;
+        font-family: $font;
+        font-size: 64px;
+        text-shadow: 0px 0px 15px #16191F;
+        margin-left: 30px;
+        z-index: 0;
+        position: relative;
+    }
+    h4{
+        color: white;
+        font-family: $font;
+        font-size: 38px;
+        position: relative;
+        z-index: 0;
+        
+        text-align: right;
+        margin-right: 30px;
+        text-shadow: 0px 0px 15px #16191F;
+        animation-name: text;
+        animation-duration: 3s;
+        @keyframes text {
+            0% {
+              transform: translateX(-300px);
+            }
+            100% {
+              transform: translateX(0px);
+            }
+          }
+            
+    }
+    span{
+        color: #bd1aa4;
+        text-shadow: 13px 10px 5px white;
+    }
+    .logo2{
+        width: 400px;
+        height: 370px;
+        float: right;
+        background-image: url(slike/logo.png);
+        background-size: cover;
+        margin-top: 30px;
+    }
+}

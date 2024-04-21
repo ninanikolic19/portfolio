@@ -1,0 +1,15 @@
+@mixin pozicioniranje($jc: space-between, $ai: center, $fd: row) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    flex-direction: $fd;
+}
+@mixin sirinaCentar($w: 100%) {
+  width: $w;
+  margin: 0px auto;
+}
+@mixin flex1($jc: space-between,$ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}

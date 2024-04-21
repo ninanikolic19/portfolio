@@ -1,0 +1,88 @@
+footer{
+    width: 100%;
+    background-color: black;
+    display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .contact{
+            width:400px;
+          
+            margin:20px 0px;
+            display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+            .contact-text{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .info-block{
+                    width:100%;
+                    padding:10px 0px;
+                    display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: row;
+                transition: all 0.5s;
+                &:hover{
+                    color:#bd1aa4;
+                }
+                    i{
+                        color:white;
+                        font-size: 22px;
+                        margin-right: 10px;
+                        
+                    }
+                }
+            }
+        }
+        .logo{
+            background-image: url(../slike/logo-bezp.png);
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    #linkovi{
+        a{
+            i{
+                font-size: 25px;
+            }
+        }
+    }
+    p{
+        color: $text-color;
+        font-family: $font;
+        font-size: 20px;
+        display: block;
+    }
+    a{
+        text-decoration: none;
+        font-family: $font;
+        margin-right: 15px;
+        font-size: 20px;
+        transition: all 0.5s;
+        color:white;
+       &:hover{
+        color:#bd1aa4;
+       }
+        i{
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            transition: all 0.5s;
+            
+            display: block;
+            &:hover{
+                color:#bd1aa4;}
+        }
+       
+    }
+    .footer-icons-size i{
+        font-size: 40px;
+    }
+}

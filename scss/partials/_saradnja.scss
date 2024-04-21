@@ -1,0 +1,31 @@
+#companies{
+    width:100%;
+    text-align: center;
+    color:white;
+    font-family: $font;
+    margin-top: 20px;
+    .work{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        .kompanije{
+            width:400px;
+            margin:20px 20px;
+            border-radius: 20px;
+            filter: brightness(0.9);
+            z-index:-1;
+                position: relative;
+            img{
+                width:100%;
+                border-radius: 20px;
+            }
+        }
+    }
+    .section-title{
+        font-style: italic;
+    }
+}

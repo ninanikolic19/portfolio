@@ -1,0 +1,436 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.wrapp-glavni {
+  width: 100%;
+  height: 90px;
+  background-color: #1e5e29;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  background-image: url(../../slike/pozadinaa2.jpg);
+  background-repeat: no-repeat;
+  height: 865px;
+  background-position: center;
+  background-attachment: fixed;
+}
+header .wrapp-glavni {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+header .wrapp-glavni a {
+  width: 100px;
+  height: 100%;
+}
+header .wrapp-glavni .logo {
+  width: 200px;
+  height: 100%;
+  background-image: url(../slike/logonn.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 110px 0px;
+}
+header .wrapp-glavni ul {
+  display: flex;
+  list-style-type: none;
+  width: 45%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .wrapp-glavni ul li {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+}
+header .wrapp-glavni ul li a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+header h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 260px 0px 0px 225px;
+  font-size: 64px;
+  text-shadow: 0px 0px 15px #16191F;
+}
+header h4 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  padding: 2px 0px 67px 373px;
+  text-shadow: 0px 0px 15px #16191F;
+  animation-name: text;
+  animation-duration: 3s;
+  @keyframes text {
+    0% {
+      transform: translateX(-300px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+}
+
+header .logo2 {
+  width: 400px;
+  height: 370px;
+  float: right;
+  background-image: url(/slike/logo.png);
+  background-size: cover;
+  margin-top: 30px;
+}
+.wrapp-glavni{
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.wrapp-glavni h2 {
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 44px;
+
+}
+
+.blok-fix {
+  width: 100%;
+  background-image: url(../../slike/cover1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.blok-fix img {
+  max-width: 620px;
+  max-height: 745px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 5px rgba(84, 92, 131, 0.89);
+}
+.blok-fix .wrapp-text {
+  width: 765px;
+}
+.blok-fix .wrapp-text .blok-za-text {
+  height: 360px;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgba(153, 155, 175, 0.44);
+  margin: 10px 0px;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 10px 5px rgba(84, 92, 131, 0.4196078431);
+}
+.blok-fix .wrapp-text .blok-za-text p {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 34px;
+  padding: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.kontakt, .wrapp-projekti, .vestine {
+  width: 100%;
+  height: 940px;
+  background-color: black;
+}
+
+.vestine {
+  background-image: url(../../slike/background-vestine.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.vestine h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 2vw;
+  width: 57%;
+  margin: 0px auto;
+  text-shadow: 0px 0px 15px #16191F;
+  padding-top: 20px;
+}
+.vestine .container-vestine {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vestine .container-vestine .skills {
+  width: 90%;
+}
+.vestine .container-vestine .skills h3 {
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 30px;
+}
+.vestine .container-vestine .skills .progress-bar {
+  background-color: #959595;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+}
+.vestine .container-vestine .skills .progress-bar span {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background: #404D60;
+  float: right;
+  margin-top: -13px;
+  margin-right: -20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vestine .container-vestine .skills .progress-bar .html {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(147, 47, 68) 35%, rgb(252, 55, 96) 100%); /* https://cssgradient.io/ */
+  width: 86%;
+}
+.vestine .container-vestine .skills .progress-bar .html span {
+  border: 2px solid #FC3765;
+  box-shadow: 0px 0px 15px 3px #FC3765;
+}
+.vestine .container-vestine .skills .progress-bar .css3 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(152, 151, 61) 35%, rgb(209, 208, 53) 100%);
+  width: 80%;
+}
+.vestine .container-vestine .skills .progress-bar .css3 span {
+  border: 2px solid #D1D035;
+  box-shadow: 0px 0px 15px 3px #D1D035;
+}
+.vestine .container-vestine .skills .progress-bar .boostrap {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(16, 16, 159) 35%, rgb(0, 212, 255) 100%);
+  width: 67%;
+}
+.vestine .container-vestine .skills .progress-bar .boostrap span {
+  border: 2px solid #00ACDC;
+  box-shadow: 0px 0px 15px 3px #00ACDC;
+}
+.vestine .container-vestine .skills .progress-bar .javascript {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(144, 130, 33) 35%, rgb(239, 215, 50) 100%);
+  width: 45%;
+}
+.vestine .container-vestine .skills .progress-bar .javascript span {
+  border: 2px solid #EFD732;
+  box-shadow: 0px 0px 15px 3px #EFD732;
+}
+.vestine .container-vestine .skills .progress-bar .sass {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(102, 35, 113) 39%, rgb(142, 52, 157) 100%);
+  width: 85%;
+}
+.vestine .container-vestine .skills .progress-bar .sass span {
+  border: 2px solid #8E349D;
+  box-shadow: 0px 0px 15px 3px #8E349D;
+}
+.vestine .container-vestine .skills .progress-bar .sass, .vestine .container-vestine .skills .progress-bar .javascript, .vestine .container-vestine .skills .progress-bar .boostrap, .vestine .container-vestine .skills .progress-bar .css3, .vestine .container-vestine .skills .progress-bar .html {
+  box-shadow: 0px 0px 15px 2px white;
+}
+.vestine .container-vestine .skills .progress-bar div {
+  height: 30px;
+  border-radius: 10px;
+}
+
+.wrapp-projekti {
+  background-image: url(/slike/slika-za-projekte.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.wrapp-projekti h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 3vw;
+  text-shadow: 0px 0px 15px black;
+}
+.wrapp-projekti .container-projekti {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 735px;
+}
+.wrapp-projekti .container-projekti .blok-projekta {
+  width: 30%;
+  height: 640px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px black;
+  overflow: hidden;
+}
+.wrapp-projekti .container-projekti .blok-projekta .krug {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(64, 77, 96, 0.9490196078);
+  box-shadow: inset 0px 0px 15px black;
+  margin: 20px 0px 0px 20px;
+  float: left;
+}
+.wrapp-projekti .container-projekti .blok-projekta h2 {
+  float: right;
+  color: aliceblue;
+  font-size: 2.5vw;
+  padding-right: 2.7em;
+}
+.wrapp-projekti .container-projekti .blok-projekta img {
+  width: 91%;
+  height: 36%;
+  border-radius: 10px;
+  margin-left: 4.7%;
+  box-shadow: 0px 0px 20px black;
+}
+.wrapp-projekti .container-projekti .blok-projekta p {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px 10px 0px 10px;
+  font-size: 25px;
+}
+
+.container-projekti .blok-projekta:nth-child(2) h2,
+.container-projekti .blok-projekta:nth-child(3) h2 {
+  padding-right: 3.8em;
+}
+
+.kontakt {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 910px;
+  background-color: black;
+}
+.kontakt .wrapp-kontakt {
+  width: 40%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.6901960784);
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px black;
+}
+.kontakt .wrapp-kontakt form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+}
+.kontakt .wrapp-kontakt form input {
+  width: 85%;
+  margin: 10px auto;
+  padding: 15px 20px;
+  background-color: #D9D9D9;
+  border-radius: 25px;
+  box-shadow: inset 0px 0px 2px 0px black;
+}
+.kontakt .wrapp-kontakt form label {
+  padding-left: 9%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3vw;
+}
+.kontakt .wrapp-kontakt form textarea {
+  width: 85%;
+  margin: 5px auto;
+  resize: none;
+  background-color: #D9D9D9;
+  border-radius: 25px;
+  padding-bottom: 20px;
+  box-shadow: inset 0px 0px 4px 0px black;
+}
+.kontakt .wrapp-kontakt form button {
+  width: 65%;
+  margin: 2px auto;
+  padding: 11px 55px;
+  background-color: black;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1vw;
+  box-shadow: inset 0px 0px 4px 0px black;
+  color: white;
+}
+.kontakt .wrapp-kontakt form button:hover {
+  background-color: gray;
+  box-shadow: inset 0px 0px 4px 0px white;
+}
+.kontakt #lokacija {
+  width: 40%;
+  height: 80%;
+}
+.kontakt #lokacija h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5vw;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.kontakt #lokacija iframe {
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px black;
+  width: 100%;
+  height: 90%;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  width: 100px;
+  height: 100%;
+}
+footer a .logo {
+  background-image: url(/slike/logo-bezp.png);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+footer p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+footer a {
+  text-decoration: none;
+}
+footer a i {
+  text-decoration: none;
+  font-size: 45px;
+  color: white;
+  margin: 0px 10px;
+}
+footer a i:hover {
+  color:#bd1aa4;
+}/*# sourceMappingURL=style.css.map */

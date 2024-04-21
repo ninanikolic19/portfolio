@@ -1,0 +1,79 @@
+.wrapp-projekti{
+    @extend %blok-fix-osnova;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    .naslov{
+        padding-top:20px;
+    }
+    h2{
+        color: $text-color;
+        font-family: $font;
+        text-align: center;
+        font-size: 1.5vw;
+        text-shadow: 0px 0px 15px white;
+    }
+    .container-projekti{
+     
+        .blok-projekta{
+            width: 90%;
+            border-radius: $border-r;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:50px auto;
+            
+            .krug{
+                height:150px;
+                width:30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .krugic{
+                    width:100%;
+                }
+                .naziv{
+                    text-shadow: none;
+                    font-size: 27px;
+                }
+            }
+            .kocka{
+                height:400px;
+                width:50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width:100%;
+                }
+            }
+            h2{
+                float: right;
+                color: aliceblue;
+                font-size: 2.5vw;
+                
+            }
+            img{
+                border-radius: 10px;
+                box-shadow: 5px 0px 15px #bd1aa4;
+            }
+            p{
+                text-align: center;
+                color: $text-color;
+                font-family: $font;
+                padding: 10px 10px 0px 10px;
+                font-size: 25px;
+            }
+        }
+        hr{
+            width:60%;
+            height:3px;
+            background-color:#bd1aa4;
+            
+        }
+    }
+}
