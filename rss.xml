@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-	<channel>
-	  <title>Lični Portfolio Informacije</title>
-	  <link>https://milos860.github.io/Portfolio-sajt/</link>
-	  <description>Ovde pišu informacije o ličnom portfoliu</description>
-		  <item>
-			<title>Portfolio</title>
-			<link>https://milos860.github.io/Portfolio-sajt/</link>
-			<description>Ovde piše nešto više o radovima</description>
-		  </item>
-	</channel>
+  <channel>
+    <title>Nina Nikolić - Portfolio</title>
+    <link>https://ninanikolic19.github.io/portfolio/</link>
+    <description>Poslednje objave na vašem portfolio sajtu.</description>
+    <language>sr</language>
+    <item>
+      <title>Više o autoru</title>
+      <link>https://ninanikolic19.github.io/portfolio/putanja/do/prvog-clanka</link>
+      <description>Kratki opis autora.</description>
+      <pubDate>Wed, 21 Apr 2024 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
 </rss>
